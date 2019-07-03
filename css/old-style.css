@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+*, 8::before, *::after {
+	font-family: arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.bar {
+	display: flex;
+	justify-content: center;
+	height: 135px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.barInt {
+	display: flex;
+	flex-direction: space-around;
+	width: 1280px;
+	height: 135px;
+	margin: auto;
+}
+
+.barInt2 {
+	display: none;
+}
+
+.barIpad {
+	display: flex;
+	justify-content: space-around;
+}
+
+.barMobile {
+	display: none;
+}
+
+.barMobile .menuBar2 {
+	width: 40px;
+	height: 40px;
+}
+
+.menuMob {
+	width: 40px;
+	height: 3px;
+	background-color: #FFFFFF;
+}
+
+.logoVizuu {
+	display: flex;
+	justify-content: center;
+	width: 103px;
+	height: 37px;
+	margin-top: 85px;
+}
+
+.logoVizuuInt {
+	display: flex;
+	width: 103px;
+	height: 37px;
+}
+
+.menuBar {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 763px;
+	height: 158px;
+	margin: auto;
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.menuBar ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 763px;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.menuBar li {
+	display: flex;
+	line-height: 25px;
+	padding-left: 51px;
+	padding-right: 50px;
+}
+
+.menuBar li:hover {
+	background-color: rgba(75, 75, 74, 1);
+}
+
+
+.fstLi {
+	border-bottom-left-radius: 10px;
+}
+
+.fstLi:hover {
+	border-bottom-left-radius: 10px;
+}
+
+.lstLi {
+	border-bottom-right-radius: 10px;
+}
+
+.lstLi:hover {
+	border-bottom-right-radius: 10px;
+}
+
+
+.menuBar a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.down {
+	display: flex;
+	justify-content: center;
+	width: 133px;
+	height: 28px;
+	margin-top: 85px;
+}
+
+.downInt {
+	display: flex;
+	justify-content: flex-end;
+	width: 133px;
+	height: 28px;
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: rgba(255, 230, 0, 1);
+}
+
+.downInt h4 {
+	margin: 0;
+	padding-right: 8px;
+	font-weight: 600;
+	line-height: 28px;
+	color: #000000;
+}
+
+.downInt a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.downInt a:hover {
+	background-color: rgba(255, 230, 0, 1);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/*
+FIM DO MENUBAR
+CONTEÚDO
+*/ 
+
+.fndCont {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	min-height: 700px;
+	background: #000 url('../_images/Captura-de-tela.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*
+FIM DO CONTEÚDO
+RODAPÉ
+*/
+
+.rodape {
+	display: flex;
+	justify-content: center;
+	height: 95px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.rodapeInt {
+	display: flex;
+	justify-content: space-between;
+	width: 1280px;
+	height: 95px;
+}
+
+.rodapeLeft {
+	display: flex;
+	width: 365px;
+	height: 95px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.rodapeBar {
+	display: flex;
+	position: relative;
+	width: 461px;
+	height: 118px;
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	bottom: 25px;
+}
+
+.rodapeBar ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	width: 461px;
+	height: 25px;
+	background-color: rgba(0, 0, 0, 1);
+	margin-top: 0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.rodapeBar li {
+	display: flex;
+	padding-left: 36px;
+	padding-right: 36px;
+	line-height: 25px;
+}
+
+.rodapeBar li:hover {
+	background-color: rgba(75, 75, 74, 1);
+}
+
+.rodapeBar a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.rodapeRight {
+	display: flex;
+	justify-content: center;
+	width: 365px;
+	height: 95px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.rightAcc {
+	display: flex;
+	justify-content: space-around;
+	width: 120px;
+	height: 120px;
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 60px;
+	background-color: rgba(0, 0, 0, 1);
+	margin-top: -55px;
+}
+
+.rightAccInt {
+	display: flex;
+	width: 68px;
+	height: 24px;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.rightAccInt img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+	.barInt {
+		width: 100%;
+	}
+
+	.rodapeInt {
+		width: 100%;
+	}
+
+	.fndCont {
+		min-height: 600px;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1020px) {
+
+	.barInt {
+		display: none;
+	}
+
+	.barInt2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: space-between;
+	}
+
+	.barIpad {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+
+	.barInt2 .menuBar {
+		margin-top: 185px;
+	}
+
+	.fndCont {
+		min-height: 500px;
+	}
+
+}
+
+@media only screen and (max-width: 799px) {
+
+	.barInt, .barInt2 {
+		display: none;
+	}
+
+	.barMobile {
+		display: flex;
+		width: 80%;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.barMobile .logoVizuu {
+		margin: 0;
+	}
+
+	.barMobile .down {
+		margin: 0;
+	}
+
+	.barMobile .menuBar2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.menuMob {
+		display: flex;
+	}
+
+	.fndCont {
+		min-height: 500px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.rodapeLeft,
+	.rodapeBar {
+		display: none;
+	}
+
+	.rodapeInt {
+		justify-content: center;
+	}
+
+	.fndCont {
+		min-height: 500px;
+	}
+
+}
+
+
+
+
+

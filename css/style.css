@@ -275,7 +275,7 @@ p{
 
 .showcase-img{
     position: relative;
-    background: url(../_images/jason-leung-1044032-unsplash.jpg);
+    background: url(../images/jason-leung-1044032-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -490,7 +490,7 @@ article img{
     .showcase .showcase-img{
         grid-column: 1 / span 3;
         grid-row: 1 / span 3;
-        background: url(../_images/jason-leung-1044032-unsplash.jpg);
+        background: url(../images/jason-leung-1044032-unsplash.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
